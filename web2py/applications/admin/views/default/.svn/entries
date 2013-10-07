@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/admin/views/default
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -25,142 +25,6 @@ team15
 
 
 971612ee-3396-4e2b-b597-8829551d6408
-
-edit_plurals.html
-file
-
-
-
-
-2013-10-06T15:29:52.293715Z
-3a0e87323ef3a7d7dd6112295ba7fe04
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-404
-
-edit_language.html
-file
-
-
-
-
-2013-10-06T15:29:52.293715Z
-81c68cd451f9e331a5aa49fa098981cf
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-836
-
-amy_ajax.html
-file
-
-
-
-
-2013-10-06T15:29:52.317715Z
-c0b6ce7c3105a9cc5660f000acdd44ed
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2290
-
-plugin.html
-file
-
-
-
-
-2013-10-06T15:29:52.317715Z
-26a5cc0bca44e1a319ab6f05a8b5d43b
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8208
 
 ticket.load
 file
@@ -195,6 +59,40 @@ team15
 
 
 4771
+
+plugin.html
+file
+
+
+
+
+2013-10-06T15:29:52.317715Z
+26a5cc0bca44e1a319ab6f05a8b5d43b
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8208
 
 bulk_register.html
 file
@@ -332,40 +230,6 @@ team15
 
 1061
 
-change_password.html
-file
-
-
-
-
-2013-10-06T15:29:52.317715Z
-b9a4147cf52b00e31737631a0abc46d5
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-719
-
 index.html
 file
 
@@ -399,6 +263,40 @@ team15
 
 
 939
+
+change_password.html
+file
+
+
+
+
+2013-10-06T15:29:52.317715Z
+b9a4147cf52b00e31737631a0abc46d5
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+719
 
 pack_custom.html
 file
@@ -434,40 +332,6 @@ team15
 
 1086
 
-uninstall.html
-file
-
-
-
-
-2013-10-06T15:29:52.317715Z
-78f92352c3ca445f14287d752e326778
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-205
-
 design.html
 file
 
@@ -501,6 +365,40 @@ team15
 
 
 23121
+
+uninstall.html
+file
+
+
+
+
+2013-10-06T15:29:52.317715Z
+78f92352c3ca445f14287d752e326778
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+205
 
 about.html
 file
@@ -1011,4 +909,106 @@ team15
 
 
 10288
+
+edit_plurals.html
+file
+
+
+
+
+2013-10-06T15:29:52.293715Z
+3a0e87323ef3a7d7dd6112295ba7fe04
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+404
+
+edit_language.html
+file
+
+
+
+
+2013-10-06T15:29:52.293715Z
+81c68cd451f9e331a5aa49fa098981cf
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+836
+
+amy_ajax.html
+file
+
+
+
+
+2013-10-06T15:29:52.317715Z
+c0b6ce7c3105a9cc5660f000acdd44ed
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2290
 

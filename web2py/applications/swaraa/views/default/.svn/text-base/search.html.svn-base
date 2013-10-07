@@ -1,6 +1,6 @@
 {{extend 'layout.html'}}
 
-<div id="searchbox" style="background-color:grey;width:100%">
+<div id="searchbox" style="background-color:black;width:100%">
 <h4>Search :</h4>
 <form method='get' action="{{=URL('swaraa','default','search')}}">
 <input type='text' name='keyword'></br>
@@ -10,14 +10,14 @@
 </br>
 <div id="searchresult">
 <table name='searchresult' border='1'>	
-	<tr style='background-color:grey'>
+	<tr style='background-color:black'>
 		<th>Song Name</th>
 		<th>Raaga</th>
 		<th>Composer</th>
 		<th>Rating</th>
 	</tr>
 	{{for i in result:}}
-	<tr style='background-color:lightgrey'>
+	<tr style='background-color:grey'>
 	    <td><a href="songpage?id1={{=i['id']}}">{{=i['Title']}}</a></td>
 		<td>{{=i['raaga']}}</td>
 		<td>{{=i['Composer']}}</td>

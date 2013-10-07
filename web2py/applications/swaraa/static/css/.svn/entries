@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/swaraa/static/css
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -25,74 +25,6 @@ team15
 
 
 971612ee-3396-4e2b-b597-8829551d6408
-
-web2py_bootstrap_nojs.css
-file
-
-
-
-
-2013-10-06T15:29:58.173715Z
-a9ecf9f326441e4a924eefc7f14e1c9f
-2013-09-17T23:54:31.054038Z
-9
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3974
-
-bootstrap.min.css
-file
-
-
-
-
-2013-10-06T15:29:58.177715Z
-2d0e36535246fd6757ec0a0cd1757d0f
-2013-09-17T23:54:31.054038Z
-9
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-103314
 
 web2py_bootstrap.css
 file
@@ -229,4 +161,72 @@ team15
 
 
 16553
+
+web2py_bootstrap_nojs.css
+file
+
+
+
+
+2013-10-06T15:29:58.173715Z
+a9ecf9f326441e4a924eefc7f14e1c9f
+2013-09-17T23:54:31.054038Z
+9
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3974
+
+bootstrap.min.css
+file
+
+
+
+
+2013-10-06T15:29:58.177715Z
+2d0e36535246fd6757ec0a0cd1757d0f
+2013-09-17T23:54:31.054038Z
+9
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+103314
 

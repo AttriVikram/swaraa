@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/admin/static/codemirror/mode
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -26,48 +26,6 @@ team15
 
 971612ee-3396-4e2b-b597-8829551d6408
 
-yaml
-dir
-
-ecl
-dir
-
-scheme
-dir
-
-go
-dir
-
-verilog
-dir
-
-sass
-dir
-
-htmlembedded
-dir
-
-pig
-dir
-
-commonlisp
-dir
-
-ruby
-dir
-
-haml
-dir
-
-z80
-dir
-
-lua
-dir
-
-stex
-dir
-
 haskell
 dir
 
@@ -80,13 +38,13 @@ dir
 css
 dir
 
-mirc
+xquery
 dir
 
-vbscript
+velocity
 dir
 
-ntriples
+tiki
 dir
 
 xml
@@ -95,55 +53,61 @@ dir
 clojure
 dir
 
-javascript
+less
 dir
 
-diff
+vb
+dir
+
+erlang
 dir
 
 apl
 dir
 
-coffeescript
+markdown
 dir
 
-jinja2
+livescript
 dir
 
-turtle
+asterisk
 dir
 
-smarty
+haxe
 dir
 
-properties
+groovy
 dir
 
-rust
+yaml
 dir
 
-perl
+scheme
 dir
 
-sparql
-dir
-
-pascal
+go
 dir
 
 shell
 dir
 
+sass
+dir
+
 gas
 dir
 
-tiddlywiki
+htmlembedded
 dir
 
-http
+commonlisp
 dir
 
-python
+haml
+dir
+
+ruby
 dir
 
 tcl
@@ -152,10 +116,13 @@ dir
 d
 dir
 
-xquery
+stex
 dir
 
-velocity
+mirc
+dir
+
+vbscript
 dir
 
 sql
@@ -164,7 +131,10 @@ dir
 q
 dir
 
-tiki
+ntriples
+dir
+
+r
 dir
 
 meta.js
@@ -201,19 +171,13 @@ team15
 
 4416
 
-r
-dir
-
-less
-dir
-
-vb
-dir
-
-erlang
+javascript
 dir
 
 rst
+dir
+
+diff
 dir
 
 gfm
@@ -222,33 +186,69 @@ dir
 sieve
 dir
 
-markdown
+coffeescript
 dir
 
-livescript
+jinja2
 dir
 
-groovy
+turtle
 dir
 
-haxe
-dir
-
-asterisk
+smarty
 dir
 
 php
 dir
 
+htmlmixed
+dir
+
 ocaml
 dir
 
-htmlmixed
+properties
+dir
+
+rust
 dir
 
 rpm
 dir
 
 cobol
+dir
+
+sparql
+dir
+
+perl
+dir
+
+pascal
+dir
+
+ecl
+dir
+
+verilog
+dir
+
+tiddlywiki
+dir
+
+http
+dir
+
+pig
+dir
+
+python
+dir
+
+lua
+dir
+
+z80
 dir
 

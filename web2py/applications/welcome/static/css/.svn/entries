@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/welcome/static/css
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -25,6 +25,40 @@ team15
 
 
 971612ee-3396-4e2b-b597-8829551d6408
+
+bootstrap.min.css
+file
+
+
+
+
+2013-10-06T15:29:53.409715Z
+2d0e36535246fd6757ec0a0cd1757d0f
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+103314
 
 web2py_bootstrap.css
 file
@@ -195,38 +229,4 @@ team15
 
 
 3974
-
-bootstrap.min.css
-file
-
-
-
-
-2013-10-06T15:29:53.409715Z
-2d0e36535246fd6757ec0a0cd1757d0f
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-103314
 

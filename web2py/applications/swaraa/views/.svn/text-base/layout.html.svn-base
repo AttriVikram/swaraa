@@ -32,8 +32,8 @@
         user-scalable = yes allows the user to zoom in -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="shortcut icon" href="{{=URL('static','images/favicon.ico')}}" type="image/x-icon">
-  <link rel="apple-touch-icon" href="{{=URL('static','images/favicon.png')}}">
+  <link rel="shortcut icon" href="{{=URL('static','images/note.jpg')}}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{=URL('static','images/note.jpg')}}">
 
   <!-- All JavaScript at the bottom, except for Modernizr which enables
        HTML5 elements & feature detects -->
@@ -65,7 +65,9 @@
   {{block head}}{{end}}
 
  <style type="text/css">
- body {background-image:url("{{=URL('static','images/back.jpg')}}");}
+ body {
+	 color:white;
+	 background-image:url("{{=URL('static','images/back.jpg')}}");}
 </style>
   
   </head>

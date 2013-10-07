@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/scripts
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -25,6 +25,448 @@ team15
 
 
 971612ee-3396-4e2b-b597-8829551d6408
+
+update-web2py.sh
+file
+
+
+
+
+2013-10-06T15:30:00.617716Z
+e6f295f1847db01c43f0a3c519d4a919
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1379
+
+autoroutes.py
+file
+
+
+
+
+2013-10-06T15:30:00.609716Z
+9f9af4f4ee6636a3c52fe63e72188a03
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5027
+
+import_static.py
+file
+
+
+
+
+2013-10-06T15:30:00.617716Z
+42f5fc553049453d89b7aa2e9015b40b
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3463
+
+setup-ubuntu-12-04-redmine-unicorn-web2py-uwsgi-nginx.sh
+file
+
+
+
+
+2013-10-06T15:30:00.617716Z
+5b03e812d492bf3954b67a59e366bd46
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17911
+
+extract_pgsql_models.py
+file
+
+
+
+
+2013-10-06T15:30:00.609716Z
+e6bcd8a6f5852b17001e0278d7c509d0
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10219
+
+setup-virtualenv-web2py.sh
+file
+
+
+
+
+2013-10-06T15:30:00.617716Z
+388e34f2628338f92f3d59ceb55ff51d
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2890
+
+setup-web2py-nginx-uwsgi-ubuntu.sh
+file
+
+
+
+
+2013-10-06T15:30:00.617716Z
+a6af5ca431bf2346bfbff3999b7f23e7
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6394
+
+web2py.archlinux.sh
+file
+
+
+
+
+2013-10-06T15:30:00.613716Z
+19b87151d6e70564530e9eb9474ac90d
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1066
+
+setup-web2py-fedora.sh
+file
+
+
+
+
+2013-10-06T15:30:00.617716Z
+29c4e0e4e5c1495f822b9b3e9354008f
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9994
+
+setup-scheduler-centos.sh
+file
+
+
+
+
+2013-10-06T15:30:00.613716Z
+23544b7d843d485c1bb6d9d1c526e411
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1144
+
+sessions2trash.py
+file
+
+
+
+
+2013-10-06T15:30:00.613716Z
+82f2815aef2f37c663b492b8f512f8a7
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7199
+
+cleancss.py
+file
+
+
+
+
+2013-10-06T15:30:00.613716Z
+3e4e075fbface10e8f53a525d3ce477d
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+986
+
+zip_static_files.py
+file
+
+
+
+
+2013-10-06T15:30:00.613716Z
+e83636aec913e74344c92b2f38ebeabe
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1577
 
 tickets2db.py
 file
@@ -706,18 +1148,17 @@ has-props
 
 9906
 
-tickets2email.py
+setup-shared-hosting-2.4.sh
 file
 
 
 
 
-2013-10-06T15:30:00.613716Z
-839af7419a77df64f8181726e7d55b3c
+2013-10-06T15:30:00.609716Z
+11379cbeba76b6f6b322a24daabcd3c7
 2013-09-17T22:46:17.415746Z
 8
 team15
-has-props
 
 
 
@@ -738,7 +1179,8 @@ has-props
 
 
 
-1125
+
+359
 
 fixws.py
 file
@@ -774,17 +1216,18 @@ has-props
 
 646
 
-setup-shared-hosting-2.4.sh
+tickets2email.py
 file
 
 
 
 
-2013-10-06T15:30:00.609716Z
-11379cbeba76b6f6b322a24daabcd3c7
+2013-10-06T15:30:00.613716Z
+839af7419a77df64f8181726e7d55b3c
 2013-09-17T22:46:17.415746Z
 8
 team15
+has-props
 
 
 
@@ -805,8 +1248,7 @@ team15
 
 
 
-
-359
+1125
 
 setup-web2py-nginx-uwsgi-opensuse.sh
 file
@@ -842,86 +1284,17 @@ team15
 
 6271
 
-setup-web2py-nginx-uwsgi-on-centos.sh
-file
-
-
-
-
-2013-10-06T15:30:00.609716Z
-68b50282048f3cd7ca96e40b0c3894d5
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8877
-
-cpdb.py
-file
-
-
-
-
-2013-10-06T15:30:00.609716Z
-bc01dffcf73abd4f55906528780ec93c
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24945
-
-setup-web2py-ubuntu.sh
+make_min_web2py.py
 file
 
 
 
 
 2013-10-06T15:30:00.617716Z
-0f1de8b242d561bead5d7302d45cf56d
+40e6861844e1112ccdf89eb075aa5d12
 2013-09-17T22:46:17.415746Z
 8
 team15
-has-props
 
 
 
@@ -942,7 +1315,8 @@ has-props
 
 
 
-5139
+
+2545
 
 setup-web2py-nginx-uwsgi-centos64.sh
 file
@@ -978,17 +1352,18 @@ team15
 
 6019
 
-make_min_web2py.py
+setup-web2py-ubuntu.sh
 file
 
 
 
 
 2013-10-06T15:30:00.617716Z
-40e6861844e1112ccdf89eb075aa5d12
+0f1de8b242d561bead5d7302d45cf56d
 2013-09-17T22:46:17.415746Z
 8
 team15
+has-props
 
 
 
@@ -1009,17 +1384,16 @@ team15
 
 
 
-
-2545
+5139
 
-autoroutes.py
+cpdb.py
 file
 
 
 
 
 2013-10-06T15:30:00.609716Z
-9f9af4f4ee6636a3c52fe63e72188a03
+bc01dffcf73abd4f55906528780ec93c
 2013-09-17T22:46:17.415746Z
 8
 team15
@@ -1044,118 +1418,16 @@ team15
 
 
 
-5027
+24945
 
-update-web2py.sh
-file
-
-
-
-
-2013-10-06T15:30:00.617716Z
-e6f295f1847db01c43f0a3c519d4a919
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1379
-
-import_static.py
-file
-
-
-
-
-2013-10-06T15:30:00.617716Z
-42f5fc553049453d89b7aa2e9015b40b
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3463
-
-setup-ubuntu-12-04-redmine-unicorn-web2py-uwsgi-nginx.sh
-file
-
-
-
-
-2013-10-06T15:30:00.617716Z
-5b03e812d492bf3954b67a59e366bd46
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17911
-
-extract_pgsql_models.py
+setup-web2py-nginx-uwsgi-on-centos.sh
 file
 
 
 
 
 2013-10-06T15:30:00.609716Z
-e6bcd8a6f5852b17001e0278d7c509d0
+68b50282048f3cd7ca96e40b0c3894d5
 2013-09-17T22:46:17.415746Z
 8
 team15
@@ -1180,277 +1452,5 @@ team15
 
 
 
-10219
-
-setup-virtualenv-web2py.sh
-file
-
-
-
-
-2013-10-06T15:30:00.617716Z
-388e34f2628338f92f3d59ceb55ff51d
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2890
-
-setup-web2py-nginx-uwsgi-ubuntu.sh
-file
-
-
-
-
-2013-10-06T15:30:00.617716Z
-a6af5ca431bf2346bfbff3999b7f23e7
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6394
-
-web2py.archlinux.sh
-file
-
-
-
-
-2013-10-06T15:30:00.613716Z
-19b87151d6e70564530e9eb9474ac90d
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1066
-
-setup-web2py-fedora.sh
-file
-
-
-
-
-2013-10-06T15:30:00.617716Z
-29c4e0e4e5c1495f822b9b3e9354008f
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9994
-
-setup-scheduler-centos.sh
-file
-
-
-
-
-2013-10-06T15:30:00.613716Z
-23544b7d843d485c1bb6d9d1c526e411
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1144
-
-sessions2trash.py
-file
-
-
-
-
-2013-10-06T15:30:00.613716Z
-82f2815aef2f37c663b492b8f512f8a7
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7199
-
-cleancss.py
-file
-
-
-
-
-2013-10-06T15:30:00.613716Z
-3e4e075fbface10e8f53a525d3ce477d
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-986
-
-zip_static_files.py
-file
-
-
-
-
-2013-10-06T15:30:00.613716Z
-e83636aec913e74344c92b2f38ebeabe
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1577
+8877
 

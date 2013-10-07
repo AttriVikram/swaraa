@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/admin/static
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -26,6 +26,12 @@ team15
 
 971612ee-3396-4e2b-b597-8829551d6408
 
+codemirror
+dir
+
+images
+dir
+
 css
 dir
 
@@ -36,11 +42,5 @@ js
 dir
 
 plugin_jqmobile
-dir
-
-codemirror
-dir
-
-images
 dir
 

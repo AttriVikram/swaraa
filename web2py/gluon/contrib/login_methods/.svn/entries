@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/gluon/contrib/login_methods
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -25,142 +25,6 @@ team15
 
 
 971612ee-3396-4e2b-b597-8829551d6408
-
-email_auth.py
-file
-
-
-
-
-2013-10-06T15:29:52.097715Z
-200d0aca4d62f3767008f7b218aaff63
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1493
-
-linkedin_account.py
-file
-
-
-
-
-2013-10-06T15:29:52.097715Z
-fa38d96814206c2ff0e8130fcc2999e7
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1563
-
-extended_login_form.py
-file
-
-
-
-
-2013-10-06T15:29:52.097715Z
-81595c09999b606c88c8284867ac5642
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3526
-
-browserid_account.py
-file
-
-
-
-
-2013-10-06T15:29:52.097715Z
-a3097a516a31ef6264c0612a84b6a44b
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4464
 
 rpx_account.py
 file
@@ -196,40 +60,6 @@ team15
 
 5208
 
-x509_auth.py
-file
-
-
-
-
-2013-10-06T15:29:52.101715Z
-b5009adaef44b35a953e67a80b4c4299
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3301
-
 oneall_account.py
 file
 
@@ -263,6 +93,40 @@ team15
 
 
 4559
+
+x509_auth.py
+file
+
+
+
+
+2013-10-06T15:29:52.101715Z
+b5009adaef44b35a953e67a80b4c4299
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3301
 
 cas_auth.py
 file
@@ -366,14 +230,14 @@ team15
 
 3882
 
-oauth20_account.py
+pam_auth.py
 file
 
 
 
 
 2013-10-06T15:29:52.097715Z
-53f62c3f7b81bf6bd4dbfe649b0c0611
+0539a74cf16ededc61e0d8854396580f
 2013-09-17T22:46:17.415746Z
 8
 team15
@@ -398,7 +262,7 @@ team15
 
 
 
-10734
+551
 
 oauth10a_account.py
 file
@@ -434,14 +298,14 @@ team15
 
 6426
 
-pam_auth.py
+oauth20_account.py
 file
 
 
 
 
 2013-10-06T15:29:52.097715Z
-0539a74cf16ededc61e0d8854396580f
+53f62c3f7b81bf6bd4dbfe649b0c0611
 2013-09-17T22:46:17.415746Z
 8
 team15
@@ -466,41 +330,7 @@ team15
 
 
 
-551
-
-openid_auth.py
-file
-
-
-
-
-2013-10-06T15:29:52.097715Z
-d2b884fc9ecb8f4dedac94276de0c6d9
-2013-09-17T22:46:17.415746Z
-8
-team15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25869
+10734
 
 __init__.py
 file
@@ -535,6 +365,40 @@ team15
 
 
 1
+
+openid_auth.py
+file
+
+
+
+
+2013-10-06T15:29:52.097715Z
+d2b884fc9ecb8f4dedac94276de0c6d9
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25869
 
 motp_auth.py
 file
@@ -705,4 +569,140 @@ team15
 
 
 1031
+
+email_auth.py
+file
+
+
+
+
+2013-10-06T15:29:52.097715Z
+200d0aca4d62f3767008f7b218aaff63
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1493
+
+linkedin_account.py
+file
+
+
+
+
+2013-10-06T15:29:52.097715Z
+fa38d96814206c2ff0e8130fcc2999e7
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563
+
+extended_login_form.py
+file
+
+
+
+
+2013-10-06T15:29:52.097715Z
+81595c09999b606c88c8284867ac5642
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3526
+
+browserid_account.py
+file
+
+
+
+
+2013-10-06T15:29:52.097715Z
+a3097a516a31ef6264c0612a84b6a44b
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4464
 

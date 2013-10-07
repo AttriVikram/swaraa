@@ -1,6 +1,6 @@
 {{extend 'layout.html'}}
 {{if auth.user_id:}}	
-<div id="searchbox" style="background-color:grey;width:100%">
+<div id="searchbox" style="background-color:black;width:100%">
 <h4>Search :</h4>
 <form method='get' action="{{=URL('swaraa','default','search')}}">
     <input type='text' name='keyword'><br/>
@@ -8,23 +8,23 @@
 </form>
 </div>
 <br/>
-<div style="background-color:grey">
+<div style="background-color:black">
     <center><h3>Welcome {{=fn}} {{=ln}}! </h3></center>
 </div>	
 
-<div style="float:right;width:320px; background-color:lightgrey">
-    <center><h3 style="background-color:grey">Upload what's New!</h3></center>
+<div style="float:right;width:320px; background-color:grey">
+    <center><h3 style="background-color:black">Upload what's New!</h3></center>
     <center>
 	<form action="upload.html" method="POST">
         <input type="submit" value="Upload"/>
         </form>
-		<h4 style="background-color:grey">Or view your Favourites!</h4>
+		<h4 style="background-color:black">Or view your Favourites!</h4>
 	{{=A(T("View Profile"), _href=URL('swaraa','default','viewProfile'), _class='btn', _style='margin-top: 1em;')}}
     </center>
 </div>
 {{pass}}
 
-<table style="background-color:lightgrey">
+<table style="background-color:grey">
     <tr>
 	<th>
 	    <form action="homepage.html" method="POST">
@@ -67,7 +67,7 @@
 </table>
 <ol>
     {{for i in range(len(n)):}}
-	<div style=" width:50%; background-color:lightgrey">
+	<div style=" width:50%; background-color:grey">
     	<li><b>{{=n[i]['Title']}}</b><br/>
     	Uploaded by: {{=usernames[i]}} at {{=n[i]['post_time']}}<br/>
            <p style="float:right"> <a href="songpage?id1={{=n[i]['id']}}">Show more details</a><br/></p>

@@ -1,6 +1,6 @@
 {{extend 'layout.html'}}
 
-<div id="searchbox" style="background-color:lightgrey; width:100%">
+<div id="searchbox" style="background-color:grey; width:100%">
     <h5>Looking for something else?</h5>
     <form method='get' action="{{=URL('swaraa','default','search')}}">
 	<input type='text' name='keyword'>
@@ -8,12 +8,12 @@
     </form>
 </div>
 
-<div id='container' style="background-color:grey; width:30%">
+<div id='container' style="background-color:black; width:30%">
     <h3>{{=song[0]['Title']}}</h3>
 
     <!--music player here-->
     <audio controls> <source src="{{=URL('download',args=song[0].Audio_File)}}">No support</audio><br></br>
-	<div style="background-color:lightgrey">
+	<div style="background-color:grey">
     Raaga: {{=song[0]['raaga']}}<br>
     Taala: {{=song[0]['taala']}}<br>
     Composer: {{=song[0]['Composer']}}<br>
@@ -24,7 +24,7 @@
 
 
 <div id='footer' style="float:left; width:50%">
-<div style="background-color:grey">    
+<div style="background-color:black">    
 <table>
 	<tr>
 	    <td><form action="songpage.html?id1={{=song[0]['id']}}" method="POST">
@@ -108,12 +108,18 @@
 
 
 
-	<div style='text-align:center; background-color:lightgrey'><b>Current Rating : {{=ctr}}</b><br>
+	<div style='text-align:center; background-color:grey'><b>Current Rating : {{=ctr}}</b><br>
 <div style="float:left">	
 {{if in_playlist==0:}}
 	<a href="add_to_playlist?id1={{=yy}}">ADD TO PLAYLIST</a>
 	{{else:}}
 	<a href="remove_from_playlist?id1={{=yy}}">REMOVE FROM PLAYLIST</a>
+	{{pass}}
+	<br />	
+	{{if already_reported==0:}}
+	<a href="report_song?id1={{=yy}}">REPORT SONG</a>
+	{{else:}}
+	You have Reported the song. Action will be taken soon if song found inappropriate. Do you want to <a href="report_song_undo?id1={{=yy}}">Undo Report?</a>
 	{{pass}}</div></br></br>
 <div style="float:right">    
 	<a href="#comm"><div style='text-align:right; color=red'><b>Comment</b></div></a>
@@ -126,17 +132,22 @@
 	<h4>Comments :</h4>
 	<ul>
 	    {{for i in comments:}}
-	    <li style='background-color:lightgrey; float:center'>
+	    <li style='background-color:grey; float:center'>
 	    {{=COMMENT_USERS[count]['username']}}
 	    {{count+=1}}
 	    <p style='text-align:right'>Posted at : {{=i['comment_time']}}</p>
 		<pre>{{=i['comment_text']}}</pre>
 
+	    {{if i['reported']==0 :}}
+	    <a href="report_comment?id1={{=yy}}&id2={{=i['id']}}">REPORT</a>
+	    {{else:}}
+	    You have Reported the comment. Action will be taken soon if comment found inappropriate. Do you want to <a href="report_comment_undo?id1={{=yy}}&id2={{=i['id']}}">Undo Report?</a>
+	    {{pass}}
 	    </li>
 	    {{pass}}
 	</ul>
 	<br>
-	<div id='comment form' style='background-color:grey'>
+	<div id='comment form' style='background-color:black'>
 	    <a id='comm'><h5>Post a Comment :</h5></a>
 	    {{=commform}}
 	</div>

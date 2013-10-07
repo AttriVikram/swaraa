@@ -1,7 +1,7 @@
 10
 
 dir
-49
+50
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/welcome/static/images
 svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
 
@@ -25,74 +25,6 @@ team15
 
 
 971612ee-3396-4e2b-b597-8829551d6408
-
-favicon.ico
-file
-
-
-
-
-2013-10-06T15:29:53.389715Z
-e16917bad986e06aecda858806bc9aa8
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-198
-
-gplus-32.png
-file
-
-
-
-
-2013-10-06T15:29:53.389715Z
-d59ee28c83e3a3554b9d195e29309ebe
-2013-09-17T22:46:17.415746Z
-8
-team15
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1513
 
 glyphicons-halflings-white.png
 file
@@ -263,4 +195,72 @@ has-props
 
 
 991
+
+favicon.ico
+file
+
+
+
+
+2013-10-06T15:29:53.389715Z
+e16917bad986e06aecda858806bc9aa8
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+198
+
+gplus-32.png
+file
+
+
+
+
+2013-10-06T15:29:53.389715Z
+d59ee28c83e3a3554b9d195e29309ebe
+2013-09-17T22:46:17.415746Z
+8
+team15
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1513
 

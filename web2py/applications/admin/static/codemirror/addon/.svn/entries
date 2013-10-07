@@ -1,0 +1,64 @@
+10
+
+dir
+49
+svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1/Source/web2py/applications/admin/static/codemirror/addon
+svn+ssh://team15@ssad.virtual-labs.ac.in/home/team15/repo1
+
+
+
+2013-09-17T22:46:17.415746Z
+8
+team15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+971612ee-3396-4e2b-b597-8829551d6408
+
+fold
+dir
+
+mode
+dir
+
+display
+dir
+
+edit
+dir
+
+search
+dir
+
+selection
+dir
+
+lint
+dir
+
+runmode
+dir
+
+dialog
+dir
+
+merge
+dir
+
+comment
+dir
+
+hint
+dir
+
